@@ -1,2 +1,2 @@
-# Dress-Up-
+# Dress-Up
 A Solo Dress Up Game
