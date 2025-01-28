@@ -1,0 +1,109 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background {
+  background-image: url('../images/DressUpBack.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 2%; 
+  position: relative;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh; 
+}
+
+.left-controls {
+  position: absolute;
+  left: 5%; 
+  top: 25%;
+}
+
+.right-controls {
+  position: absolute;
+  right: 5%; 
+  top: 25%;
+}
+
+.category-button {
+  width: 10vw; 
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category-button.active {
+  border: 0.3vw solid white; 
+  border-radius: 1.5vw;
+}
+
+.category-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.character-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw; 
+  height: 60vh; 
+  margin: 0 auto;
+}
+
+.character-base {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: contain;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: contain;
+}
+
+.arrow {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.left-arrow {
+  left: -8vw; 
+}
+
+.right-arrow {
+  right: -8vw; 
+}
+
+.arrow-icon {
+  width: 7vw; 
+  height: 7vw;
+}

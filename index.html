@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dress Up Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <!-- Left Category Buttons -->
+      <div class="controls-container left-controls">
+        <div class="category-button" data-category="hair">
+          <img src="images/hair.png" alt="Hair" class="category-icon">
+        </div>
+        <div class="category-button" data-category="shirt">
+          <img src="images/shirt.png" alt="Shirt" class="category-icon">
+        </div>
+        <div class="category-button" data-category="pants">
+          <img src="images/pants.png" alt="Pants" class="category-icon">
+        </div>
+      </div>
+
+      <!-- Character Container -->
+      <div class="character-container">
+        <button class="arrow left-arrow" id="left-arrow">
+          <img src="images/left.png" alt="Previous" class="arrow-icon">
+        </button>
+
+        <img src="images/base.png" alt="Character Base" class="character-base">
+        <img id="shoes-item" src="images/shoes1.png" alt="Shoes" class="item">
+        <img id="pants-item" src="images/pants1.png" alt="Pants" class="item">
+        <img id="shirt-item" src="images/shirt1.png" alt="Shirt" class="item">
+        <img id="face-item" src="images/face1.png" alt="Face Accessory" class="item">
+        <img id="hair-item" src="images/hair1.png" alt="Hair" class="item">
+        <img id="hat-item" src="images/hat1.png" alt="Hat" class="item">
+
+        <button class="arrow right-arrow" id="right-arrow">
+          <img src="images/right.png" alt="Next" class="arrow-icon">
+        </button>
+      </div>
+
+      <!-- Right Category Buttons -->
+      <div class="controls-container right-controls">
+        <div class="category-button" data-category="hat">
+          <img src="images/hat.png" alt="Hat" class="category-icon">
+        </div>
+        <div class="category-button" data-category="face">
+          <img src="images/face.png" alt="" class="category-icon">
+        </div>
+        <div class="category-button" data-category="shoes">
+          <img src="images/shoes.png" alt="Shoes" class="category-icon">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
