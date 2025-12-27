@@ -1,4 +1,2 @@
-# Dress-Up
-A Solo Dress Up Game
-
-Play it here: https://jumanacs.github.io/Dress-Up/
+# HTML & CSS Prototype for Wild Bites 
+[Check out Wild Bites](https://github.com/JumanaCS/Wild-Bites)
